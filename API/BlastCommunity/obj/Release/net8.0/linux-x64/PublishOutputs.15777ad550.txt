@@ -1,0 +1,5 @@
+E:\Project\VS2022\Blast Community\Blast Community\obj\Release\net8.0\linux-x64\PubTmp\Out\appsettings.Development.json
+E:\Project\VS2022\Blast Community\Blast Community\obj\Release\net8.0\linux-x64\PubTmp\Out\appsettings.json
+E:\Project\VS2022\Blast Community\Blast Community\obj\Release\net8.0\linux-x64\PubTmp\Out\Blast Community.pdb
+E:\Project\VS2022\Blast Community\Blast Community\obj\Release\net8.0\linux-x64\PubTmp\Out\Entity.pdb
+E:\Project\VS2022\Blast Community\Blast Community\obj\Release\net8.0\linux-x64\PubTmp\Out\Blast Community

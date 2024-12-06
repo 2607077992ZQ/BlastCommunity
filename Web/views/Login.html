@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="position-absolute top-50 start-50 translate-middle" style="width: 50%;">
+            
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="用户名" id="username">
+            </div>
+            
+            <div class="input-group mb-3">
+                <input type="password" class="form-control" placeholder="密码" id="password" required>
+                <div class="invalid-feedback" id="loginerror">
+                    用户名或密码错误
+                </div>
+            </div>
+            
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">注册</button>
+                <button class="btn btn-success" type="button" onclick="LoginUser();">登录</button>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">用户注册</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="用户名" aria-describedby="button-addon2" id="Regusername">
+                            <button class="btn btn-outline-secondary" type="button" id="button-verify" onclick="Verify();">验证是否可用</button>
+                            <div class="invalid-feedback">
+                                此用户名不可用
+                            </div>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <div class="input-group" style="margin-bottom: 10px;">
+                                <input type="password" class="form-control" placeholder="密码" id="Regpwd">
+                            </div>
+                        </div>
+                        
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary" type="button" onclick="RegUser();">注册账号</button>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div>
+                        <h2 class="fs-5">社区公约</h2>
+                        <div>
+                            <b>关于账号:</b><br>
+                            1、您的用户名将作为登录账号使用，用户名可以被修改并非固定请牢记您的用户名。<br>
+                            2、密码的设定为宽松状态，由于服务可能暴露在互联网下，请设置为非简单密码以守护您的账户。<br>
+                            3、您的账户在社区贡献时请勿违规，若您的贡献被频繁举报您的账户可能会被禁用。<br>
+                            <b>关于本站的部分设定:</b><br>
+                            1、您的账户在登录本站点时我们将会在你的设备上存储您的账户信息以便快速操作，当清除浏览器缓存时或您使用的无痕状态浏览时你的登录信息将失效。<br>
+                            2、想要快速访问本站您可以将本站添加至您的收藏夹书签里以实现快速访问。<br>
+                            3、当访问部分数据时可能由于数据量的大小原因需要使用大量的流量数据。<br>
+                            4、本站还处于开发状态，当前访问的站点可能正在测试阶段出现Bug请见谅，部分功能正在完善中。<br>
+                            5、可至Github留下您的反馈<a href="https://github.com/2607077992ZQ/BlastCommunity/issues">前往</a>，或拉取项目搭建给本地供自己使用。提示：Github在国内访问可能会超时或访问慢请多试几次。<br>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/scripts.js"></script>
+    <script>
+        var Modal = new bootstrap.Modal(document.getElementById('staticBackdrop'))
+
+        function LoginUser(){ 
+            var user = document.getElementById('username')
+            var pwd = document.getElementById('password')
+            if(user.value !== undefined && user.value !== ''){
+                var data = {
+                    user: user.value,
+                    password: pwd === undefined ? '': pwd.value
+                }
+                PostRequest(url + '/User/Login', data)
+                    .then(json => {
+                        // console.log(json)
+                        if(json.Code === 200){
+                            //登录成功
+                            localStorage.setItem('userKey',json.UserKey);
+                            localStorage.setItem('name',json.Name);
+
+                            window.location.href = '../index.html'
+                        }else{
+                            pwd.className = 'form-control is-invalid'
+                            document.getElementById('loginerror').innerHTML = json.Error
+                        }
+                    })
+                    .catch(err => {
+                        pwd.className = 'form-control is-invalid'
+                        document.getElementById('loginerror').innerHTML = err
+                    })
+            }else{
+                pwd.className = 'form-control is-invalid'
+            }
+
+        }
+
+        function RegUser(){
+            var user = document.getElementById('Regusername')
+            var pwd = document.getElementById('Regpwd')
+            if(user.value !== undefined && user.value !== ''){
+                var data = {
+                    name: user.value,
+                    password: pwd === undefined ? '': pwd.value
+                }
+                PostRequest(url + '/User/Register', data)
+                    .then(json => {
+                        if(json.Code === 200){
+                            //注册成功
+                            Modal.hide();
+
+                            user.value = ''
+                            pwd.value = ''
+                            user.className = 'form-control'
+
+                        }else{
+                            alert(json.error)
+                        }
+                    })
+                    .catch(err => {
+                        //访问报错
+                        alert('在注册时发生了请求错误')
+                    })
+
+            }else{
+                document.getElementById('Regusername').className = 'form-control is-invalid'
+            }
+        }
+
+        async function Verify(){
+            var name = document.getElementById('Regusername')
+            try {
+                var bool = true;
+                if(name.value !== '')
+                    bool = await VerifyName(name.value)
+
+                if(bool === true){
+                    name.className = 'form-control is-invalid'
+                }else{
+                    name.className = 'form-control is-valid'
+                }
+                return !bool;
+
+            } catch {
+                alert('在核验用户时发生了错误')
+            }
+        }
+        
+    </script>
+    
+</body>
+</html>

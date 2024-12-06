@@ -1,0 +1,6 @@
+@Blast_Community_HostAddress = http://localhost:5136
+
+GET {{Blast_Community_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

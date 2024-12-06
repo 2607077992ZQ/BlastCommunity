@@ -1,0 +1,17 @@
+{
+  "database": {
+    "datatype": "mysql",
+    "server": "127.0.0.1",
+    "port": 3306,
+    "dataname": "BlastCommunity",
+    "user": "root",
+    "password": "Aa123456",
+    "ssl": "none",
+    "charset": "utf8mb4"
+  },
+  "apiaddress": {
+    "webType": "http",
+    "address": "*",
+    "port": 5000
+  }
+}

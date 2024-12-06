@@ -1,0 +1,17 @@
+E:\Project\VS2022\Blast Community\publish\Entity.dll
+E:\Project\VS2022\Blast Community\publish\Entity.deps.json
+E:\Project\VS2022\Blast Community\publish\Entity.pdb
+E:\Project\VS2022\Blast Community\publish\Microsoft.EntityFrameworkCore.dll
+E:\Project\VS2022\Blast Community\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Project\VS2022\Blast Community\publish\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Project\VS2022\Blast Community\publish\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Project\VS2022\Blast Community\publish\Microsoft.Extensions.Caching.Memory.dll
+E:\Project\VS2022\Blast Community\publish\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Project\VS2022\Blast Community\publish\Microsoft.Extensions.DependencyInjection.dll
+E:\Project\VS2022\Blast Community\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Project\VS2022\Blast Community\publish\Microsoft.Extensions.Logging.dll
+E:\Project\VS2022\Blast Community\publish\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Project\VS2022\Blast Community\publish\Microsoft.Extensions.Options.dll
+E:\Project\VS2022\Blast Community\publish\Microsoft.Extensions.Primitives.dll
+E:\Project\VS2022\Blast Community\publish\MySqlConnector.dll
+E:\Project\VS2022\Blast Community\publish\Pomelo.EntityFrameworkCore.MySql.dll

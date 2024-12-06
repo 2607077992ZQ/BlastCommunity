@@ -1,0 +1,11 @@
+{
+  "database": {
+    "datatype": "mysql",
+    "server": "124.223.14.251",
+    "port": 3306,
+    "dataname": "BlastCommunity",
+    "user": "root",
+    "password": "Zq20020918!",
+    "charset": "utf8mb4"
+  }
+}

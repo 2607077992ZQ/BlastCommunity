@@ -1,0 +1,12 @@
+E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\Entity.deps.json
+E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\Entity.dll
+E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\Entity.pdb
+E:\Project\VS2022\Blast Community\Entity\obj\Release\net8.0\Entity.csproj.AssemblyReference.cache
+E:\Project\VS2022\Blast Community\Entity\obj\Release\net8.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\VS2022\Blast Community\Entity\obj\Release\net8.0\Entity.AssemblyInfoInputs.cache
+E:\Project\VS2022\Blast Community\Entity\obj\Release\net8.0\Entity.AssemblyInfo.cs
+E:\Project\VS2022\Blast Community\Entity\obj\Release\net8.0\Entity.csproj.CoreCompileInputs.cache
+E:\Project\VS2022\Blast Community\Entity\obj\Release\net8.0\Entity.dll
+E:\Project\VS2022\Blast Community\Entity\obj\Release\net8.0\refint\Entity.dll
+E:\Project\VS2022\Blast Community\Entity\obj\Release\net8.0\Entity.pdb
+E:\Project\VS2022\Blast Community\Entity\obj\Release\net8.0\ref\Entity.dll

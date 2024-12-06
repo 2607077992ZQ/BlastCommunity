@@ -1,0 +1,92 @@
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\appsettings.Development.json
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\appsettings.json
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\config.json
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\BlastCommunity.staticwebassets.endpoints.json
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\BlastCommunity.exe
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\BlastCommunity.deps.json
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\BlastCommunity.runtimeconfig.json
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\BlastCommunity.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\BlastCommunity.pdb
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\MySqlConnector.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\TinyPinyin.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\Entity.dll
+E:\Project\VS2022\Blast Community\Blast Community\bin\Debug\net8.0\Entity.pdb
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\BlastCommunity.csproj.AssemblyReference.cache
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\BlastCommunity.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\BlastCommunity.AssemblyInfoInputs.cache
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\BlastCommunity.AssemblyInfo.cs
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\BlastCommunity.csproj.CoreCompileInputs.cache
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\BlastCommunity.MvcApplicationPartsAssemblyInfo.cs
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\BlastCommunity.MvcApplicationPartsAssemblyInfo.cache
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\scopedcss\bundle\BlastCommunity.styles.css
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\staticwebassets.build.json
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\staticwebassets.development.json
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\staticwebassets\msbuild.BlastCommunity.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\staticwebassets\msbuild.BlastCommunity.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\staticwebassets\msbuild.build.BlastCommunity.props
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlastCommunity.props
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlastCommunity.props
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\BlastCom.F3600540.Up2Date
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\BlastCommunity.dll
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\refint\BlastCommunity.dll
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\BlastCommunity.pdb
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\BlastCommunity.genruntimeconfig.cache
+E:\Project\VS2022\Blast Community\Blast Community\obj\Debug\net8.0\ref\BlastCommunity.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\appsettings.Development.json
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\appsettings.json
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\config.json
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\BlastCommunity.staticwebassets.endpoints.json
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\BlastCommunity.exe
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\BlastCommunity.deps.json
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\BlastCommunity.runtimeconfig.json
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\BlastCommunity.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\BlastCommunity.pdb
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\MySqlConnector.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\TinyPinyin.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\Entity.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\bin\Debug\net8.0\Entity.pdb
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\BlastCommunity.csproj.AssemblyReference.cache
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\BlastCommunity.GeneratedMSBuildEditorConfig.editorconfig
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\BlastCommunity.AssemblyInfoInputs.cache
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\BlastCommunity.AssemblyInfo.cs
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\BlastCommunity.csproj.CoreCompileInputs.cache
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\BlastCommunity.MvcApplicationPartsAssemblyInfo.cs
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\BlastCommunity.MvcApplicationPartsAssemblyInfo.cache
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\scopedcss\bundle\BlastCommunity.styles.css
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\staticwebassets.build.json
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\staticwebassets.development.json
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\staticwebassets\msbuild.BlastCommunity.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\staticwebassets\msbuild.BlastCommunity.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\staticwebassets\msbuild.build.BlastCommunity.props
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlastCommunity.props
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlastCommunity.props
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\BlastCom.F3600540.Up2Date
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\BlastCommunity.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\refint\BlastCommunity.dll
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\BlastCommunity.pdb
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\BlastCommunity.genruntimeconfig.cache
+E:\Project\VS2022\BlastCommunity\BlastCommunity\API\BlastCommunity\obj\Debug\net8.0\ref\BlastCommunity.dll

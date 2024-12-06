@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Entity</id>
+    <version>1.0.0</version>
+    <authors>Entity</authors>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" />
+  </metadata>
+  <files>
+    <file src="E:\Project\VS2022\Blast Community\Entity\obj\DotnetToolSettings.xml" target="tools\net8.0\any\DotnetToolSettings.xml" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Entity.dll" target="tools\net8.0\any\Entity.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Entity.deps.json" target="tools\net8.0\any\Entity.deps.json" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Entity.pdb" target="tools\net8.0\any\Entity.pdb" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.EntityFrameworkCore.dll" target="tools\net8.0\any\Microsoft.EntityFrameworkCore.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll" target="tools\net8.0\any\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.EntityFrameworkCore.Relational.dll" target="tools\net8.0\any\Microsoft.EntityFrameworkCore.Relational.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.Extensions.Caching.Abstractions.dll" target="tools\net8.0\any\Microsoft.Extensions.Caching.Abstractions.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.Extensions.Caching.Memory.dll" target="tools\net8.0\any\Microsoft.Extensions.Caching.Memory.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.Extensions.Configuration.Abstractions.dll" target="tools\net8.0\any\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.Extensions.DependencyInjection.dll" target="tools\net8.0\any\Microsoft.Extensions.DependencyInjection.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll" target="tools\net8.0\any\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.Extensions.Logging.dll" target="tools\net8.0\any\Microsoft.Extensions.Logging.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.Extensions.Logging.Abstractions.dll" target="tools\net8.0\any\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.Extensions.Options.dll" target="tools\net8.0\any\Microsoft.Extensions.Options.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Microsoft.Extensions.Primitives.dll" target="tools\net8.0\any\Microsoft.Extensions.Primitives.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\MySqlConnector.dll" target="tools\net8.0\any\MySqlConnector.dll" />
+    <file src="E:\Project\VS2022\Blast Community\Entity\bin\Release\net8.0\publish\Pomelo.EntityFrameworkCore.MySql.dll" target="tools\net8.0\any\Pomelo.EntityFrameworkCore.MySql.dll" />
+  </files>
+</package>

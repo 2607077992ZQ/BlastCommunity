@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Index</title>
+        <!-- Favicon-->
+        <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
+        
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- <link href="css/styles.css" rel="stylesheet" /> -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+        <script src="./js/console.js"></script>
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Hello</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item" id="IsNotLogin"><a class="nav-link active" aria-current="page" href="./views/Login.html">登录</a></li>
+                        <li class="nav-item dropdown" id="IsLogin">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">用户名</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#" id="MyaddItem">我要贡献</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="toastalert('还未开发');">我的贡献</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#" onclick="toastalert('还未开发');">管理</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)" onclick="localStorage.clear();location.reload();">注销</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page content-->
+        <div class="container">
+            <div class="text-center mt-5">
+
+                <!-- 搜索框 -->
+                <div class="form-floating">
+                    <input class="form-control" placeholder="Leave a comment here" id="searchgroup" onkeydown="searchgroup(event)"></input>
+                    <label for="searchgroup">搜索</label>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <div class="d-grid gap-2" id="ItemsGroup">
+                        <!-- 组项目 -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Items modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modaltitle">title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating">
+                        <input class="form-control" placeholder="Leave a comment here" id="searchitem" onkeydown="searchItems(event)"></input>
+                        <label for="searchitem">搜索</label>
+                    </div>
+
+                    <div class="d-flex justify-content-center" id="modalLoding" style="visibility: none;">
+                        <div class="spinner-border" role="status">
+                          <span class="visually-hidden"></span>
+                        </div>
+                    </div>
+
+                    <div id="Itemsvalues">
+                        <!-- 插入内容 -->
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">关闭</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add Item Modal -->
+        <div class="modal fade" id="addItemModal" tabindex="-1" aria-labelledby="addItemModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="addItemModalLabel">贡献项目</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                
+                <div class="input-group mb-3">
+                  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">分支</button>
+                  <ul class="dropdown-menu" id="itemsmenu">
+                    <!-- <li><a class="dropdown-item" href="#">Action</a></li> -->
+                  </ul>
+                  <input type="text" class="form-control" placeholder="所属分支" id="selectGroup">
+                </div>
+
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="addon-wrapping">@</span>
+                  <input type="text" class="form-control" placeholder="项目" aria-describedby="addon-wrapping" id="addItemName">
+                </div>
+
+                <div class="input-group">
+                  <span class="input-group-text">备注</span>
+                  <textarea class="form-control" aria-label="With textarea" id="addItemRe"></textarea>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary" onclick="AddItemValue();">保存</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- offcanvas -->
+        <!-- 置顶 -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="z-index:9999;">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">标签</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div id="offcanvas-date">
+                <!-- 添加时间 -->
+              </div>
+              <div>
+                <label>备注:</label><br>
+              </div>
+              <div id="offcanvas-value" style="text-indent: 2em;">
+                <!-- 内容 -->
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                  操作
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">举报滥用</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">修改</a></li>
+                  <li><a class="dropdown-item" href="#">移除</a></li> -->
+                </ul>
+              </div>
+            </div>
+        </div>
+
+        <!-- Toast -->
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+              <div class="toast-header">
+                <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" _mstVisible="2"><rect width="100%" height="100%" fill="#007aff" _mstVisible="3"></rect></svg>
+                <strong class="me-auto">提示</strong>
+                <small>
+                  <label id="alertTitle"></label>
+                </small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+              </div>
+              <div class="toast-body" id="alertValue">
+                错误提示
+              </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script>
+          Load();
+          showGroupList();
+        </script>
+    </body>
+    
+</html>
